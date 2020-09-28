@@ -15,8 +15,8 @@ h1 {
 #moon-body {
   position: absolute;
   background-color: white;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   left: 50%;
   top: 50%;
   border-radius: 50%;
@@ -26,8 +26,8 @@ h1 {
 #moon-shadow {
   position: absolute;
   background-color: black;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   top: 50%;
   left: 50%;
   border-radius: 50%;
