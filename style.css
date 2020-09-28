@@ -1,13 +1,35 @@
 body {
+  background-color: black;
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
 }
 
 h1 {
+  user-select: none;
+  width: 225px;
   font-style: italic;
   color: #373fff;
+  box-shadow: #373fff 5px 5px
 }
 
-#moon-body{
+#moon-body {
+  position: absolute;
   background-color: white;
+  width: 100px;
+  height: 100px;
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#moon-shadow {
+  position: absolute;
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  top: 50%;
+  left: 51%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
 }
