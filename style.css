@@ -9,7 +9,8 @@ h1 {
   width: 240px;
   font-style: italic;
   color: #373fff;
-  box-shadow: #373fff 5px 5px
+  box-shadow: #373fff 5px 5px;
+  z-index: 2;
 }
 
 #moon-body {
@@ -21,6 +22,7 @@ h1 {
   top: 50%;
   border-radius: 50%;
   transform: translate(-50%, -50%);
+  z-index: 0;
 }
 
 #moon-shadow {
@@ -32,4 +34,5 @@ h1 {
   left: 50%;
   border-radius: 50%;
   transform: translate(-50%, -50%);
+  z-index: 1;
 }
