@@ -13,7 +13,7 @@ h1 {
   z-index: 2;
 }
 
-#moon-body {
+.moon-body {
   position: absolute;
   background-color: white;
   width: 200px;
@@ -25,7 +25,7 @@ h1 {
   z-index: 0;
 }
 
-#moon-shadow {
+.moon-shadow {
   position: absolute;
   background-color: black;
   width: 200px;
