@@ -19,3 +19,7 @@ window.addEventListener("mousemove", e => {
   let x = (e.clientX / window.innerWidth) * 100;
   moonShadow.style.left = `${x}%`;
 });
+window.addEventListener("touchmove", e => {
+  let x = (e.clientX / window.innerWidth) * 100;
+  moonShadow.style.left = `${x}%`;
+});
