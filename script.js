@@ -16,10 +16,6 @@ window.onresize = function() {
   window.location.reload();
 }
 window.addEventListener("mousemove", e => {
-  let x = (e.clientX / window.innerWidth) * 100;
-  moonShadow.style.left = `${x}%`;
-});
-document.addEventListener("touchmove", e => {
-  let x = (e.clientX / window.innerWidth) * 100;
+  let x = (e.clientX / window.innerWidth + 0.5) * 50;
   moonShadow.style.left = `${x}%`;
 });
