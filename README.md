@@ -1,5 +1,7 @@
 # Crescent Cycle
 
+A simple Lunar-cycle simulator, contains a VR mode.
+
 ## Update Log
 
 ### Version 1
