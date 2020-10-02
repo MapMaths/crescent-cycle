@@ -45,4 +45,9 @@ a:visited {
   z-index: 5;
 }
 
-dialog
+dialog[open] {
+}
+
+button.close {
+  background-color: red;
+}

@@ -1,5 +1,8 @@
 var moonBody = document.querySelector(".moon-body");
 var moonShadow = document.querySelector(".moon-shadow");
+var messageDialog = document.getElementById("message-dialog");
+var messageDialogCloseButton = document.getElementById("message-dialog-close-button");
+
 window.onload = function() {
   let r;
   if (window.innerWidth >= window.innerHeight) {
@@ -12,10 +15,16 @@ window.onload = function() {
   moonBody.style.width = `${r}px`;
   moonBody.style.height = `${r}px`;
 }
+
 window.onresize = function() {
   window.location.reload();
 }
+
 window.addEventListener("mousemove", e => {
   let x = (e.clientX / window.innerWidth + 0.5) * 50;
   moonShadow.style.left = `${x}%`;
 });
+
+messageDialogCloseButton.onclick = function() {
+  messageDialog.close;
+}
