@@ -6,11 +6,20 @@ A simple Lunar-cycle simulator, contains a VR mode.
 
 ### Version 1
 
+#### V1.4
+
+**04 Octo, 2020**
+
+1. Fixed footer z-index.
+2. Fixed some problems of link-color and changed it again.
+
 #### V1.3
 
 **03 Octo, 2020**
 
-1. Fixed
+1. Fixed header z-index.
+2. Tested dialog.
+3. Changed link color.
 
 #### V1.2
 

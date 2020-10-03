@@ -28,3 +28,5 @@ window.addEventListener("mousemove", e => {
 messageDialogCloseButton.onclick = function() {
   messageDialog.close;
 }
+
+.glitchbutton

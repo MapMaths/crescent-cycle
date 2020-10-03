@@ -41,8 +41,18 @@ a.header {
 }
 
 dialog[open] {
+  background: white;
 }
 
 button.close {
   background-color: red;
+}
+
+footer {
+  position: fixed;
+  z-index: 15;
+}
+
+a:visited {
+  color: blue;
 }
