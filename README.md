@@ -6,6 +6,12 @@ A simple Lunar-cycle simulator, contains a VR mode.
 
 ### Version 1
 
+#### V1.5
+
+**06 Octo, 2020**
+
+1. Added dialog successfully.
+
 #### V1.4
 
 **04 Octo, 2020**
