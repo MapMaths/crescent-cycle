@@ -7,6 +7,7 @@ var converter = new showdown.Converter(),
     text      = markdownTest.value,
     html      = converter.makeHtml(text);
 markdownTest.innerHTML = html;
+console.log(markdownTest.value);
 
 window.onload = function() {
   let r;
