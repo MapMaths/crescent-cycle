@@ -2,6 +2,9 @@ var moonBody = document.querySelector(".moon-body");
 var moonShadow = document.querySelector(".moon-shadow");
 var messageDialog = document.getElementById("message-dialog");
 var messageDialogCloseButton = document.getElementById("message-dialog-close-button");
+var converter = new showdown.Converter(),
+    text      = '# hello, markdown!',
+    html      = converter.makeHtml(text);
 
 window.onload = function() {
   let r;
